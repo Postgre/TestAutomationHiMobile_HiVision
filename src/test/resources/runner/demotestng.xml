@@ -1,0 +1,35 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="HiMobile_Android_Suite">
+    <Listeners>
+        <Listener class-name="himobile.testcases.RetryListner"></Listener>
+    </Listeners>
+
+<test name="SettingsScreen-Basics">
+    <classes>
+        <class name="himobile.testcases.SettingsScreenTestCases" ></class>  
+    </classes>
+</test>
+<test name="SettingsScreen-Advanced">
+    <classes>
+        <class name="himobile.testcases.SettingScreenValidationTest" ></class>  
+    </classes>
+</test>
+<test name="SettingsScreen-Orientation">
+    <classes>
+        <class name="himobile.testcases.SettingsScreenOrientation" ></class>  
+    </classes>
+</test>
+<test name="SettingsScreen-UserManagement">
+    <classes>
+        <class name="himobile.testcases.SettingsScreenUserMangmntFunc" ></class>  
+    </classes>
+</test>
+
+<test name="SettingsScreen-HTTPS">
+    <classes>
+        <class name="himobile.testcases.SettingsScreenHTTPS" ></class>  
+    </classes>
+</test>
+
+</suite>

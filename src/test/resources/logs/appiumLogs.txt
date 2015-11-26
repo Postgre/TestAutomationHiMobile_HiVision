@@ -1,0 +1,226 @@
+2015-11-23 09:05:36:271 - info: Welcome to Appium v1.4.0 (REV 8f63e2f91ef7907aed8bda763f4e5ca08e86970a)
+2015-11-23 09:05:36:287 - info: Appium REST http interface listener started on 0.0.0.0:4723
+2015-11-23 09:05:36:287 - info: [debug] Non-default server args: {"log":"D:\\Automation_Appium\\wwwWSpace\\HiMobileTestAutomation\\src\\test\\resources\\logs\\appiumLogs.txt"}
+2015-11-23 09:05:36:287 - info: Console LogLevel: debug
+2015-11-23 09:05:36:287 - info: File LogLevel: debug
+2015-11-23 09:05:36:678 - info: --> GET /wd/hub/status {}
+2015-11-23 09:05:36:678 - info: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.0","revision":"8f63e2f91ef7907aed8bda763f4e5ca08e86970a"}}}
+2015-11-23 09:05:36:693 - info: <-- GET /wd/hub/status 200 18.830 ms - 104 {"status":0,"value":{"build":{"version":"1.4.0","revision":"8f63e2f91ef7907aed8bda763f4e5ca08e86970a"}}}
+2015-11-23 09:05:48:069 - info: --> POST /wd/hub/session {"desiredCapabilities":{"automationName":"Appium","newCommandTimeout":"3000","platformVersion":"5.0.1","app":"D:\\Automation_Appium\\wwwWSpace\\TestAutomationDemoHiMobile\\src\\test\\resources\\apps\\HiMobile-debug.apk","platformName":"Android","deviceName":"Android","browserName":"null","appActivity":"com.hirschmann.himobile.HiMobile","deviceReadyTimeout":"300","appPackage":"com.hirschmann.himobile"}}
+2015-11-23 09:05:48:069 - info: Client User-Agent string: Apache-HttpClient/4.5.1 (Java/1.7.0_45)
+2015-11-23 09:05:48:084 - info: [debug] Using local app from desired caps: D:\Automation_Appium\wwwWSpace\TestAutomationDemoHiMobile\src\test\resources\apps\HiMobile-debug.apk
+2015-11-23 09:05:48:084 - info: [debug] Creating new appium session 4d2c2895-9c1d-4478-82dd-3035d24f9ec5
+2015-11-23 09:05:48:084 - info: Starting android appium
+2015-11-23 09:05:48:084 - info: [debug] Getting Java version
+2015-11-23 09:05:48:413 - info: Java version is: 1.7.0_45
+2015-11-23 09:05:48:413 - info: [debug] Checking whether adb is present
+2015-11-23 09:05:48:429 - info: [debug] Using adb from C:\AndroidADT\ADT\sdk\platform-tools\adb.exe
+2015-11-23 09:05:48:429 - info: [debug] Set chromedriver binary as: D:\Automation_Appium\Appium\node_modules\appium\build\chromedriver\windows\chromedriver.exe
+2015-11-23 09:05:48:429 - info: [debug] Using fast reset? true
+2015-11-23 09:05:48:429 - info: [debug] Preparing device for session
+2015-11-23 09:05:48:444 - info: [debug] Checking whether app is actually present
+2015-11-23 09:05:48:444 - info: Retrieving device
+2015-11-23 09:05:48:444 - info: [debug] Trying to find a connected android device
+2015-11-23 09:05:48:444 - info: [debug] Getting connected devices...
+2015-11-23 09:05:48:444 - info: [debug] executing cmd: C:\AndroidADT\ADT\sdk\platform-tools\adb.exe devices
+2015-11-23 09:05:48:585 - info: [debug] 1 device(s) connected
+2015-11-23 09:05:48:600 - info: Found device R32D2050G1Y
+2015-11-23 09:05:48:600 - info: [debug] Setting device id to R32D2050G1Y
+2015-11-23 09:05:48:600 - info: [debug] Waiting for device to be ready and to respond to shell commands (timeout = 300)
+2015-11-23 09:05:48:600 - info: [debug] executing cmd: C:\AndroidADT\ADT\sdk\platform-tools\adb.exe -s R32D2050G1Y wait-for-device
+2015-11-23 09:05:48:725 - info: [debug] executing cmd: C:\AndroidADT\ADT\sdk\platform-tools\adb.exe -s R32D2050G1Y shell "echo 'ready'"
+2015-11-23 09:05:48:865 - info: [debug] Starting logcat capture
+2015-11-23 09:05:48:990 - info: [debug] Getting device API level
+2015-11-23 09:05:48:990 - info: [debug] executing cmd: C:\AndroidADT\ADT\sdk\platform-tools\adb.exe -s R32D2050G1Y shell "getprop ro.build.version.sdk"
+2015-11-23 09:05:49:241 - info: [debug] Device is at API Level 22
+2015-11-23 09:05:49:241 - info: Device API level is: 22
+2015-11-23 09:05:49:256 - info: [debug] Extracting strings for language: default
+2015-11-23 09:05:49:256 - info: [debug] executing cmd: C:\AndroidADT\ADT\sdk\platform-tools\adb.exe -s R32D2050G1Y shell "getprop persist.sys.language"
+2015-11-23 09:05:49:459 - info: [debug] Current device persist.sys.language: en
+2015-11-23 09:05:49:459 - info: [debug] java -jar "D:\Automation_Appium\Appium\node_modules\appium\node_modules\appium-adb\jars\appium_apk_tools.jar" "stringsFromApk" "D:\Automation_Appium\wwwWSpace\TestAutomationDemoHiMobile\src\test\resources\apps\HiMobile-debug.apk" "C:\Users\SHUKLA~1.IBT\AppData\Local\Temp\com.hirschmann.himobile" en
+2015-11-23 09:05:51:161 - info: [debug] No strings.xml for language 'en', getting default strings.xml
+2015-11-23 09:05:51:161 - info: [debug] java -jar "D:\Automation_Appium\Appium\node_modules\appium\node_modules\appium-adb\jars\appium_apk_tools.jar" "stringsFromApk" "D:\Automation_Appium\wwwWSpace\TestAutomationDemoHiMobile\src\test\resources\apps\HiMobile-debug.apk" "C:\Users\SHUKLA~1.IBT\AppData\Local\Temp\com.hirschmann.himobile"
+2015-11-23 09:05:52:675 - info: [debug] Reading strings from converted strings.json
+2015-11-23 09:05:52:691 - info: [debug] Setting language to default
+2015-11-23 09:05:52:691 - info: [debug] executing cmd: C:\AndroidADT\ADT\sdk\platform-tools\adb.exe -s R32D2050G1Y push "C:\\Users\\SHUKLA~1.IBT\\AppData\\Local\\Temp\\com.hirschmann.himobile\\strings.json" /data/local/tmp
+2015-11-23 09:05:52:895 - info: [debug] Checking whether aapt is present
+2015-11-23 09:05:52:910 - info: [debug] Using aapt from C:\AndroidADT\ADT\sdk\build-tools\android-4.4W\aapt.exe
+2015-11-23 09:05:52:910 - info: [debug] Retrieving process from manifest.
+2015-11-23 09:05:52:910 - info: [debug] executing cmd: C:\AndroidADT\ADT\sdk\build-tools\android-4.4W\aapt.exe dump xmltree D:\Automation_Appium\wwwWSpace\TestAutomationDemoHiMobile\src\test\resources\apps\HiMobile-debug.apk AndroidManifest.xml
+2015-11-23 09:05:53:035 - info: [debug] Set app process to: com.hirschmann.himobile
+2015-11-23 09:05:53:035 - info: [debug] Not uninstalling app since server not started with --full-reset
+2015-11-23 09:05:53:035 - info: [debug] Checking app cert for D:\Automation_Appium\wwwWSpace\TestAutomationDemoHiMobile\src\test\resources\apps\HiMobile-debug.apk.
+2015-11-23 09:05:53:035 - info: [debug] executing cmd: java -jar D:\Automation_Appium\Appium\node_modules\appium\node_modules\appium-adb\jars\verify.jar D:\Automation_Appium\wwwWSpace\TestAutomationDemoHiMobile\src\test\resources\apps\HiMobile-debug.apk
+2015-11-23 09:05:53:643 - info: [debug] App already signed.
+2015-11-23 09:05:53:643 - info: [debug] Zip-aligning D:\Automation_Appium\wwwWSpace\TestAutomationDemoHiMobile\src\test\resources\apps\HiMobile-debug.apk
+2015-11-23 09:05:53:643 - info: [debug] Checking whether zipalign is present
+2015-11-23 09:05:53:675 - info: [debug] Using zipalign from C:\AndroidADT\ADT\sdk\build-tools\android-4.4W\zipalign.exe
+2015-11-23 09:05:53:675 - info: [debug] Zip-aligning apk.
+2015-11-23 09:05:53:675 - info: [debug] executing cmd: C:\AndroidADT\ADT\sdk\build-tools\android-4.4W\zipalign.exe -f 4 D:\Automation_Appium\wwwWSpace\TestAutomationDemoHiMobile\src\test\resources\apps\HiMobile-debug.apk C:\Users\SHUKLA~1.IBT\AppData\Local\Temp\1151023-5524-36xhdx\appium.tmp
+2015-11-23 09:05:53:940 - info: [debug] MD5 for app is 2ef4e229b4669b3a8fa3793c96f9782a
+2015-11-23 09:05:53:940 - info: [debug] executing cmd: C:\AndroidADT\ADT\sdk\platform-tools\adb.exe -s R32D2050G1Y shell "ls /data/local/tmp/2ef4e229b4669b3a8fa3793c96f9782a.apk"
+2015-11-23 09:05:54:144 - info: [debug] Getting install status for com.hirschmann.himobile
+2015-11-23 09:05:54:144 - info: [debug] Getting device API level
+2015-11-23 09:05:54:144 - info: [debug] executing cmd: C:\AndroidADT\ADT\sdk\platform-tools\adb.exe -s R32D2050G1Y shell "getprop ro.build.version.sdk"
+2015-11-23 09:05:54:285 - info: [debug] Device is at API Level 22
+2015-11-23 09:05:54:285 - info: [debug] executing cmd: C:\AndroidADT\ADT\sdk\platform-tools\adb.exe -s R32D2050G1Y shell "pm list packages -3 com.hirschmann.himobile"
+2015-11-23 09:05:54:737 - info: [debug] App is installed
+2015-11-23 09:05:54:737 - info: App is already installed, resetting app
+2015-11-23 09:05:54:737 - info: [debug] Running fast reset (stop and clear)
+2015-11-23 09:05:54:737 - info: [debug] executing cmd: C:\AndroidADT\ADT\sdk\platform-tools\adb.exe -s R32D2050G1Y shell "am force-stop com.hirschmann.himobile"
+2015-11-23 09:05:55:455 - info: [debug] executing cmd: C:\AndroidADT\ADT\sdk\platform-tools\adb.exe -s R32D2050G1Y shell "pm clear com.hirschmann.himobile"
+2015-11-23 09:05:56:017 - info: [debug] Forwarding system:4724 to device:4724
+2015-11-23 09:05:56:017 - info: [debug] executing cmd: C:\AndroidADT\ADT\sdk\platform-tools\adb.exe -s R32D2050G1Y forward tcp:4724 tcp:4724
+2015-11-23 09:05:56:205 - info: [debug] Pushing appium bootstrap to device...
+2015-11-23 09:05:56:205 - info: [debug] executing cmd: C:\AndroidADT\ADT\sdk\platform-tools\adb.exe -s R32D2050G1Y push "D:\\Automation_Appium\\Appium\\node_modules\\appium\\build\\android_bootstrap\\AppiumBootstrap.jar" /data/local/tmp/
+2015-11-23 09:05:56:376 - info: [debug] Pushing settings apk to device...
+2015-11-23 09:05:56:376 - info: [debug] executing cmd: C:\AndroidADT\ADT\sdk\platform-tools\adb.exe -s R32D2050G1Y install "D:\Automation_Appium\Appium\node_modules\appium\build\settings_apk\settings_apk-debug.apk"
+2015-11-23 09:05:57:031 - info: [debug] Pushing unlock helper app to device...
+2015-11-23 09:05:57:031 - info: [debug] executing cmd: C:\AndroidADT\ADT\sdk\platform-tools\adb.exe -s R32D2050G1Y install "D:\Automation_Appium\Appium\node_modules\appium\build\unlock_apk\unlock_apk-debug.apk"
+2015-11-23 09:05:57:625 - info: Starting App
+2015-11-23 09:05:57:625 - info: [debug] Attempting to kill all 'uiautomator' processes
+2015-11-23 09:05:57:625 - info: [debug] Getting all processes with 'uiautomator'
+2015-11-23 09:05:57:641 - info: [debug] executing cmd: C:\AndroidADT\ADT\sdk\platform-tools\adb.exe -s R32D2050G1Y shell "ps 'uiautomator'"
+2015-11-23 09:05:57:859 - info: [debug] No matching processes found
+2015-11-23 09:05:57:859 - info: [debug] Running bootstrap
+2015-11-23 09:05:57:859 - info: [debug] spawning: C:\AndroidADT\ADT\sdk\platform-tools\adb.exe -s R32D2050G1Y shell uiautomator runtest AppiumBootstrap.jar -c io.appium.android.bootstrap.Bootstrap -e pkg com.hirschmann.himobile -e disableAndroidWatchers false
+2015-11-23 09:05:58:665 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: numtests=1
+2015-11-23 09:05:58:665 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: stream=
+2015-11-23 09:05:58:665 - info: [debug] [UIAUTOMATOR STDOUT] io.appium.android.bootstrap.Bootstrap:
+2015-11-23 09:05:58:665 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+2015-11-23 09:05:58:665 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
+2015-11-23 09:05:58:665 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
+2015-11-23 09:05:58:665 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: current=1
+2015-11-23 09:05:58:665 - info: [debug] [UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS_CODE: 1
+2015-11-23 09:05:58:681 - info: [debug] [BOOTSTRAP] [debug] Socket opened on port 4724
+2015-11-23 09:05:58:681 - info: [debug] [BOOTSTRAP] [debug] Appium Socket Server Ready
+2015-11-23 09:05:58:681 - info: [debug] [BOOTSTRAP] [debug] Loading json...
+2015-11-23 09:05:58:697 - info: [debug] Waking up device if it's not alive
+2015-11-23 09:05:58:697 - info: [debug] Pushing command to appium work queue: ["wake",{}]
+2015-11-23 09:05:58:713 - info: [debug] [BOOTSTRAP] [debug] json loading complete.
+2015-11-23 09:05:58:713 - info: [debug] [BOOTSTRAP] [debug] Registered crash watchers.
+2015-11-23 09:05:58:729 - info: [debug] [BOOTSTRAP] [debug] Client connected
+2015-11-23 09:05:58:729 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"wake","params":{}}
+2015-11-23 09:05:58:729 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2015-11-23 09:05:58:729 - info: [debug] [BOOTSTRAP] [debug] Got command action: wake
+2015-11-23 09:05:58:744 - info: [debug] executing cmd: C:\AndroidADT\ADT\sdk\platform-tools\adb.exe -s R32D2050G1Y shell "dumpsys window"
+2015-11-23 09:05:58:760 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+2015-11-23 09:05:59:072 - info: [debug] Screen already unlocked, continuing.
+2015-11-23 09:05:59:072 - info: [debug] Pushing command to appium work queue: ["getDataDir",{}]
+2015-11-23 09:05:59:087 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"getDataDir","params":{}}
+2015-11-23 09:05:59:087 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2015-11-23 09:05:59:087 - info: [debug] [BOOTSTRAP] [debug] Got command action: getDataDir
+2015-11-23 09:05:59:087 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":"\/data\/local\/tmp"}
+2015-11-23 09:05:59:087 - info: [debug] dataDir set to: /data/local/tmp
+2015-11-23 09:05:59:087 - info: [debug] Pushing command to appium work queue: ["compressedLayoutHierarchy",{"compressLayout":false}]
+2015-11-23 09:05:59:103 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"compressedLayoutHierarchy","params":{"compressLayout":false}}
+2015-11-23 09:05:59:103 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2015-11-23 09:05:59:103 - info: [debug] [BOOTSTRAP] [debug] Got command action: compressedLayoutHierarchy
+2015-11-23 09:05:59:103 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":false}
+2015-11-23 09:05:59:103 - info: [debug] Getting device API level
+2015-11-23 09:05:59:103 - info: [debug] executing cmd: C:\AndroidADT\ADT\sdk\platform-tools\adb.exe -s R32D2050G1Y shell "getprop ro.build.version.sdk"
+2015-11-23 09:05:59:306 - info: [debug] Device is at API Level 22
+2015-11-23 09:05:59:306 - info: [debug] executing cmd: C:\AndroidADT\ADT\sdk\platform-tools\adb.exe -s R32D2050G1Y shell "am start -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000 -n com.hirschmann.himobile/com.hirschmann.himobile.HiMobile"
+2015-11-23 09:06:00:316 - info: [debug] Waiting for pkg "com.hirschmann.himobile" and activity "com.hirschmann.himobile.HiMobile" to be focused
+2015-11-23 09:06:00:316 - info: [debug] Getting focused package and activity
+2015-11-23 09:06:00:316 - info: [debug] executing cmd: C:\AndroidADT\ADT\sdk\platform-tools\adb.exe -s R32D2050G1Y shell "dumpsys window windows"
+2015-11-23 09:06:00:566 - info: [debug] executing cmd: C:\AndroidADT\ADT\sdk\platform-tools\adb.exe -s R32D2050G1Y shell "getprop ro.build.version.release"
+2015-11-23 09:06:00:769 - info: [debug] Device is at release version 5.1.1
+2015-11-23 09:06:00:769 - info: [debug] Device launched! Ready for commands
+2015-11-23 09:06:00:769 - info: [debug] Setting command timeout to 3000 secs
+2015-11-23 09:06:00:769 - info: [debug] Appium session started with sessionId 4d2c2895-9c1d-4478-82dd-3035d24f9ec5
+2015-11-23 09:06:00:785 - info: <-- POST /wd/hub/session 303 12713.835 ms - 74 
+2015-11-23 09:06:00:831 - info: --> GET /wd/hub/session/4d2c2895-9c1d-4478-82dd-3035d24f9ec5 {}
+2015-11-23 09:06:00:831 - info: [debug] Responding to client with success: {"status":0,"value":{"platform":"LINUX","browserName":"null","platformVersion":"5.1.1","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"automationName":"Appium","newCommandTimeout":"3000","platformVersion":"5.0.1","app":"D:\\Automation_Appium\\wwwWSpace\\TestAutomationDemoHiMobile\\src\\test\\resources\\apps\\HiMobile-debug.apk","platformName":"Android","deviceName":"Android","browserName":"null","appActivity":"com.hirschmann.himobile.HiMobile","deviceReadyTimeout":"300","appPackage":"com.hirschmann.himobile"},"automationName":"Appium","newCommandTimeout":"3000","app":"D:\\Automation_Appium\\wwwWSpace\\TestAutomationDemoHiMobile\\src\\test\\resources\\apps\\HiMobile-debug.apk","platformName":"Android","deviceName":"R32D2050G1Y","appActivity":"com.hirschmann.himobile.HiMobile","deviceReadyTimeout":"300","appPackage":"com.hirschmann.himobile"},"sessionId":"4d2c2895-9c1d-4478-82dd-3035d24f9ec5"}
+2015-11-23 09:06:00:847 - info: <-- GET /wd/hub/session/4d2c2895-9c1d-4478-82dd-3035d24f9ec5 200 10.215 ms - 1043 {"status":0,"value":{"platform":"LINUX","browserName":"null","platformVersion":"5.1.1","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"automationName":"Appium","newCommandTimeout":"3000","platformVersion":"5.0.1","app":"D:\\Automation_Appium\\wwwWSpace\\TestAutomationDemoHiMobile\\src\\test\\resources\\apps\\HiMobile-debug.apk","platformName":"Android","deviceName":"Android","browserName":"null","appActivity":"com.hirschmann.himobile.HiMobile","deviceReadyTimeout":"300","appPackage":"com.hirschmann.himobile"},"automationName":"Appium","newCommandTimeout":"3000","app":"D:\\Automation_Appium\\wwwWSpace\\TestAutomationDemoHiMobile\\src\\test\\resources\\apps\\HiMobile-debug.apk","platformName":"Android","deviceName":"R32D2050G1Y","appActivity":"com.hirschmann.himobile.HiMobile","deviceReadyTimeout":"300","appPackage":"com.hirschmann.himobile"},"sessionId":"4d2c2895-9c1d-4478-82dd-3035d24f9ec5"}
+2015-11-23 09:06:00:894 - info: --> POST /wd/hub/session/4d2c2895-9c1d-4478-82dd-3035d24f9ec5/timeouts {"type":"implicit","ms":120000}
+2015-11-23 09:06:00:894 - info: [debug] Set Android implicit wait to 120000ms
+2015-11-23 09:06:00:894 - info: [debug] Responding to client with success: {"status":0,"value":null,"sessionId":"4d2c2895-9c1d-4478-82dd-3035d24f9ec5"}
+2015-11-23 09:06:00:894 - info: <-- POST /wd/hub/session/4d2c2895-9c1d-4478-82dd-3035d24f9ec5/timeouts 200 8.295 ms - 76 {"status":0,"value":null,"sessionId":"4d2c2895-9c1d-4478-82dd-3035d24f9ec5"}
+2015-11-23 09:06:01:564 - info: --> GET /wd/hub/session/4d2c2895-9c1d-4478-82dd-3035d24f9ec5/contexts {}
+2015-11-23 09:06:01:564 - info: [debug] Getting a list of available webviews
+2015-11-23 09:06:01:564 - info: [debug] executing cmd: C:\AndroidADT\ADT\sdk\platform-tools\adb.exe -s R32D2050G1Y shell "cat /proc/net/unix"
+2015-11-23 09:06:01:721 - info: [debug] WEBVIEW_2704 mapped to pid 2704
+2015-11-23 09:06:01:721 - info: [debug] Getting process name for webview
+2015-11-23 09:06:01:737 - info: [debug] executing cmd: C:\AndroidADT\ADT\sdk\platform-tools\adb.exe -s R32D2050G1Y shell "ps"
+2015-11-23 09:06:01:924 - info: [debug] Parsed pid: 2704 pkg: com.hirschmann.himobile
+2015-11-23 09:06:01:924 - info: [debug] from: u0_a91,2704,136,1736008,126504,ffffffff,00000000,S,com.hirschmann.himobile
+2015-11-23 09:06:01:924 - info: [debug] returning process name: com.hirschmann.himobile
+2015-11-23 09:06:01:924 - info: [debug] Available contexts: 
+2015-11-23 09:06:01:924 - info: [debug] ["WEBVIEW_com.hirschmann.himobile"]
+2015-11-23 09:06:01:924 - info: [debug] Available contexts: NATIVE_APP,WEBVIEW_com.hirschmann.himobile
+2015-11-23 09:06:01:924 - info: [debug] Responding to client with success: {"status":0,"value":["NATIVE_APP","WEBVIEW_com.hirschmann.himobile"],"sessionId":"4d2c2895-9c1d-4478-82dd-3035d24f9ec5"}
+2015-11-23 09:06:01:924 - info: <-- GET /wd/hub/session/4d2c2895-9c1d-4478-82dd-3035d24f9ec5/contexts 200 362.367 ms - 120 {"status":0,"value":["NATIVE_APP","WEBVIEW_com.hirschmann.himobile"],"sessionId":"4d2c2895-9c1d-4478-82dd-3035d24f9ec5"}
+2015-11-23 09:06:01:955 - info: --> POST /wd/hub/session/4d2c2895-9c1d-4478-82dd-3035d24f9ec5/context {"name":"NATIVE_APP"}
+2015-11-23 09:06:01:955 - info: [debug] Getting a list of available webviews
+2015-11-23 09:06:01:955 - info: [debug] executing cmd: C:\AndroidADT\ADT\sdk\platform-tools\adb.exe -s R32D2050G1Y shell "cat /proc/net/unix"
+2015-11-23 09:06:02:173 - info: [debug] WEBVIEW_2704 mapped to pid 2704
+2015-11-23 09:06:02:173 - info: [debug] Getting process name for webview
+2015-11-23 09:06:02:173 - info: [debug] executing cmd: C:\AndroidADT\ADT\sdk\platform-tools\adb.exe -s R32D2050G1Y shell "ps"
+2015-11-23 09:06:02:338 - info: [debug] Parsed pid: 2704 pkg: com.hirschmann.himobile
+2015-11-23 09:06:02:338 - info: [debug] from: u0_a91,2704,136,1727136,121084,ffffffff,00000000,S,com.hirschmann.himobile
+2015-11-23 09:06:02:338 - info: [debug] returning process name: com.hirschmann.himobile
+2015-11-23 09:06:02:354 - info: [debug] Available contexts: NATIVE_APP,WEBVIEW_com.hirschmann.himobile
+2015-11-23 09:06:02:354 - info: [debug] ["WEBVIEW_com.hirschmann.himobile"]
+2015-11-23 09:06:02:354 - info: [debug] Available contexts: NATIVE_APP,WEBVIEW_com.hirschmann.himobile
+2015-11-23 09:06:02:354 - info: [debug] Responding to client with success: {"status":0,"value":null,"sessionId":"4d2c2895-9c1d-4478-82dd-3035d24f9ec5"}
+2015-11-23 09:06:02:354 - info: <-- POST /wd/hub/session/4d2c2895-9c1d-4478-82dd-3035d24f9ec5/context 200 398.243 ms - 76 {"status":0,"value":null,"sessionId":"4d2c2895-9c1d-4478-82dd-3035d24f9ec5"}
+2015-11-23 09:06:32:421 - info: --> POST /wd/hub/session/4d2c2895-9c1d-4478-82dd-3035d24f9ec5/touch/perform {"actions":[{"action":"press","options":{"x":30,"y":2400}},{"action":"wait","options":{"ms":5000}},{"action":"release","options":{}}]}
+2015-11-23 09:06:32:421 - info: [debug] Pushing command to appium work queue: ["element:touchDown",{"x":30,"y":2400}]
+2015-11-23 09:06:32:437 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"element:touchDown","params":{"x":30,"y":2400}}
+2015-11-23 09:06:32:437 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2015-11-23 09:06:32:437 - info: [debug] [BOOTSTRAP] [debug] Got command action: touchDown
+2015-11-23 09:06:32:437 - info: [debug] [BOOTSTRAP] [debug] Display bounds: [0,0][1600,2464]
+2015-11-23 09:06:32:437 - info: [debug] [BOOTSTRAP] [debug] Performing TouchDown using element? false x: 30, y: 2400
+2015-11-23 09:06:32:454 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+2015-11-23 09:06:37:483 - info: [debug] Pushing command to appium work queue: ["element:touchUp",{"x":30,"y":2400}]
+2015-11-23 09:06:37:483 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"element:touchUp","params":{"x":30,"y":2400}}
+2015-11-23 09:06:37:483 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2015-11-23 09:06:37:483 - info: [debug] [BOOTSTRAP] [debug] Got command action: touchUp
+2015-11-23 09:06:37:483 - info: [debug] [BOOTSTRAP] [debug] Display bounds: [0,0][1600,2464]
+2015-11-23 09:06:37:483 - info: [debug] [BOOTSTRAP] [debug] Performing TouchUp using element? false x: 30, y: 2400
+2015-11-23 09:06:37:483 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+2015-11-23 09:06:37:499 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"4d2c2895-9c1d-4478-82dd-3035d24f9ec5"}
+2015-11-23 09:06:37:499 - info: <-- POST /wd/hub/session/4d2c2895-9c1d-4478-82dd-3035d24f9ec5/touch/perform 200 5076.152 ms - 76 {"status":0,"value":true,"sessionId":"4d2c2895-9c1d-4478-82dd-3035d24f9ec5"}
+2015-11-23 09:06:42:556 - info: --> POST /wd/hub/session/4d2c2895-9c1d-4478-82dd-3035d24f9ec5/touch/perform {"actions":[{"action":"press","options":{"x":800,"y":2400}},{"action":"wait","options":{"ms":10000}},{"action":"release","options":{}}]}
+2015-11-23 09:06:42:556 - info: [debug] Pushing command to appium work queue: ["element:touchDown",{"x":800,"y":2400}]
+2015-11-23 09:06:42:556 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"element:touchDown","params":{"x":800,"y":2400}}
+2015-11-23 09:06:42:556 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2015-11-23 09:06:42:556 - info: [debug] [BOOTSTRAP] [debug] Got command action: touchDown
+2015-11-23 09:06:42:572 - info: [debug] [BOOTSTRAP] [debug] Display bounds: [0,0][1600,2464]
+2015-11-23 09:06:42:572 - info: [debug] [BOOTSTRAP] [debug] Performing TouchDown using element? false x: 800, y: 2400
+2015-11-23 09:06:42:572 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+2015-11-23 09:06:52:581 - info: [debug] Pushing command to appium work queue: ["element:touchUp",{"x":800,"y":2400}]
+2015-11-23 09:06:52:581 - info: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"element:touchUp","params":{"x":800,"y":2400}}
+2015-11-23 09:06:52:581 - info: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+2015-11-23 09:06:52:581 - info: [debug] [BOOTSTRAP] [debug] Got command action: touchUp
+2015-11-23 09:06:52:581 - info: [debug] [BOOTSTRAP] [debug] Display bounds: [0,0][1600,2464]
+2015-11-23 09:06:52:581 - info: [debug] [BOOTSTRAP] [debug] Performing TouchUp using element? false x: 800, y: 2400
+2015-11-23 09:06:52:597 - info: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+2015-11-23 09:06:52:597 - info: [debug] Responding to client with success: {"status":0,"value":true,"sessionId":"4d2c2895-9c1d-4478-82dd-3035d24f9ec5"}
+2015-11-23 09:06:52:597 - info: <-- POST /wd/hub/session/4d2c2895-9c1d-4478-82dd-3035d24f9ec5/touch/perform 200 10039.200 ms - 76 {"status":0,"value":true,"sessionId":"4d2c2895-9c1d-4478-82dd-3035d24f9ec5"}
+2015-11-23 09:06:57:631 - info: --> POST /wd/hub/session/4d2c2895-9c1d-4478-82dd-3035d24f9ec5/context {"name":"WEBVIEW"}
+2015-11-23 09:06:57:631 - info: [debug] Getting a list of available webviews
+2015-11-23 09:06:57:631 - info: [debug] executing cmd: C:\AndroidADT\ADT\sdk\platform-tools\adb.exe -s R32D2050G1Y shell "cat /proc/net/unix"
+2015-11-23 09:06:57:851 - info: [debug] WEBVIEW_2704 mapped to pid 2704
+2015-11-23 09:06:57:851 - info: [debug] Getting process name for webview
+2015-11-23 09:06:57:851 - info: [debug] executing cmd: C:\AndroidADT\ADT\sdk\platform-tools\adb.exe -s R32D2050G1Y shell "ps"
+2015-11-23 09:06:58:094 - info: [debug] Parsed pid: 2704 pkg: com.hirschmann.himobile
+2015-11-23 09:06:58:094 - info: [debug] from: u0_a91,2704,136,1757268,233404,ffffffff,00000000,R,com.hirschmann.himobile
+2015-11-23 09:06:58:095 - info: [debug] returning process name: com.hirschmann.himobile
+2015-11-23 09:06:58:095 - info: [debug] Available contexts: NATIVE_APP,WEBVIEW_com.hirschmann.himobile
+2015-11-23 09:06:58:095 - info: [debug] ["WEBVIEW_com.hirschmann.himobile"]
+2015-11-23 09:06:58:096 - info: [debug] Available contexts: NATIVE_APP,WEBVIEW_com.hirschmann.himobile
+2015-11-23 09:06:58:097 - info: [debug] Connecting to chrome-backed webview
+2015-11-23 09:06:58:099 - info: Set chromedriver binary as: D:\Automation_Appium\Appium\node_modules\appium\build\chromedriver\windows\chromedriver.exe
+2015-11-23 09:06:58:105 - info: Killing any old chromedrivers, running: FOR /F "usebackq tokens=5" %a in (`netstat -nao ^| findstr /R /C:"9515 "`) do (FOR /F "usebackq" %b in (`TASKLIST /FI "PID eq %a" ^| findstr /I chromedriver.exe`) do (IF NOT %b=="" TASKKILL /F /PID %a))
+2015-11-23 09:06:58:500 - info: No old chromedrivers seemed to exist
+2015-11-23 09:06:58:500 - info: Spawning chromedriver with: D:\Automation_Appium\Appium\node_modules\appium\build\chromedriver\windows\chromedriver.exe --url-base=wd/hub --port=9515
+2015-11-23 09:06:58:563 - info: [CHROMEDRIVER STDOUT] Starting ChromeDriver 2.15.322448 (52179c1b310fec1797c81ea9a20326839860b7d3) on port 9515
+Only local connections are allowed.
+2015-11-23 09:06:58:578 - info: Proxying [GET /status] to [GET http://127.0.0.1:9515/wd/hub/status] with no body
+2015-11-23 09:06:58:625 - info: Got response with status 200: {"sessionId":"","status":0,"value":{"build":{"version":"alpha"},"os":{"arch":"x86_64","name":"Windows NT","version":"6.1 SP1"}}}
+2015-11-23 09:06:58:625 - info: Proxying [POST /session] to [POST http://127.0.0.1:9515/wd/hub/session] with body: {"desiredCapabilities":{"chromeOptions":{"androidPackage":"com.hirschmann.himobile","androidUseRunningApp":true,"androidDeviceSerial":"R32D2050G1Y"}}}
+2015-11-23 09:06:59:258 - info: Got response with status 200: {"sessionId":"210b895661f1dd4550b65d3bdb050f7b","status":0,"value":{"acceptSslCerts":true,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{},"cssSelect...
+2015-11-23 09:06:59:258 - info: [debug] Responding to client with success: {"status":0,"value":null,"sessionId":"4d2c2895-9c1d-4478-82dd-3035d24f9ec5"}
+2015-11-23 09:06:59:258 - info: <-- POST /wd/hub/session/4d2c2895-9c1d-4478-82dd-3035d24f9ec5/context 200 1634.470 ms - 76 {"status":0,"value":null,"sessionId":"4d2c2895-9c1d-4478-82dd-3035d24f9ec5"}
