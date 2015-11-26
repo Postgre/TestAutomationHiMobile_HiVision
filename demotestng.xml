@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="HiMobile_Android_Suite">
+    <Listeners>
+        <Listener class-name="himobile.testcases.RetryListner"></Listener>
+    </Listeners>
+
+<test name="SettingsScreen-Basics">
+    <classes>
+        <class name="himobile.testcases.TestCase1_Demo" ></class>  
+    </classes>
+</test>
+
+</suite>
